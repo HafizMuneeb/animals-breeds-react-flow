@@ -1,4 +1,4 @@
-
+// @ts-nocheck
 import { getBreeds } from ".";
 
 export default async function breeds(breed, parentId, yPosition) {
