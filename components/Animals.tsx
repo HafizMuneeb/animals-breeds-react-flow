@@ -8,14 +8,12 @@ export default async function Animals() {
 
     const animals = await getAnimals();
     
-    const nodes = [
+    const nodes =  [
         {
           id: '514',
-          data: { label: 'Animals' },
-          sourcePosition: 'right',
-          targetPosition: 'left',
-          position: { x: 0, y: 500 },
           type: 'input',
+          data: { label: 'Animals' },
+          position: { x: 0, y: 500 },
         }
     ];
 
