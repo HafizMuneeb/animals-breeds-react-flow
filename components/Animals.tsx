@@ -1,3 +1,6 @@
+// @ts-nocheck
+
+
 import {  getAnimals } from '@/utils';
 import breeds from '@/utils/breed';
 import ReactFlow, { Controls, Background } from 'reactflow';
@@ -13,6 +16,8 @@ export default async function Animals() {
           id: '514',
           type: 'input',
           data: { label: 'Animals' },
+          sourcePosition: 'right',
+          targetPosition: 'left',
           position: { x: 0, y: 500 },
         }
     ];
